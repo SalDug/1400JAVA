@@ -11,7 +11,7 @@ package Ch02Su;
 
 public class C03음의정수 {
 	public static void main(String[] args) {
-		System.out.printf("%d\n", (byte)(0b11001100));
+		System.out.printf("%d\n", (byte)(0b01110101));
 	}
 }
 
