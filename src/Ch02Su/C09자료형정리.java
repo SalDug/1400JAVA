@@ -76,7 +76,6 @@ public class C09자료형정리 {
 		boolean flag1 = true;
 		boolean flag2 = false;
 		
-		
 	}
 
 }
