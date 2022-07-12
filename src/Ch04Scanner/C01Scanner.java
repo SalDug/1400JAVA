@@ -6,6 +6,9 @@ public class C01Scanner {
 
 	public static void main(String[] args) {
 		
+		//System.out : System이 관리하는 출력장치 
+		//System.in : System이 관리하는 입력장치로 스트림형성
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("첫번째 : ");
