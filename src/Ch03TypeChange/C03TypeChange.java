@@ -9,7 +9,6 @@ public class C03TypeChange {
 		byte ch2 = (byte)num2;
 		System.out.println(ch1);
 		System.out.println(ch2);
-
 	}
 
 }
