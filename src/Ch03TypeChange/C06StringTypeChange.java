@@ -38,6 +38,12 @@ public class C06StringTypeChange {
 		
 		System.out.println(str1+str2);
 		
+		int x = 5;
+		int y = 2;
+		int result = x/y;
+		System.out.println(result); 
+		
+		
 	}
 
 }
