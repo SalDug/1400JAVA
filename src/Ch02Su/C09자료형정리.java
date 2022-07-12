@@ -30,8 +30,8 @@ public class C09자료형정리 {
 		//short : -32768 ~ 32767
 		//char : 0 ~ 65535
 		
-		char ndata1 = 60000;
-		short ndata2 = (short)ndata1;
+		//char ndata1 = 60000;
+		//short ndata2 = (short)ndata1;
 		
 		//long : 8byte 정수(음수지원 O)
 		//리터럴 접미사 : l, L
@@ -73,8 +73,8 @@ public class C09자료형정리 {
 		//--------------------
 		//5.boolean형(T/F)		
 		//--------------------
-		boolean flag1 = true;
-		boolean flag2 = false;
+		//boolean flag1 = true;
+		//boolean flag2 = false;
 		
 	}
 
