@@ -6,10 +6,14 @@ public class C01Scanner {
 
 	public static void main(String[] args) {
 		
-		//System.out : System이 관리하는 출력장치 
-		//System.in : System이 관리하는 입력장치로 스트림형성
+		//System.out : APP에서 표준 출력장치 방향으로 스트림 형성
+		//System.in : 표준 입력장치에서 APP방향으로 스트림 형성
 		
+		//new Scanner(System.in)
+		//->표준 입력 스트림을 Scanner 객체에 연결
+		//->Scanner 객체는 다양한 형태의 값을 스트림으로부터 받아올 수 있는 기능을 가지는 단위
 		Scanner sc = new Scanner(System.in);
+		
 		
 		System.out.print("첫번째 : ");
 		int num1 = sc.nextInt();
