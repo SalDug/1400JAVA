@@ -84,7 +84,7 @@ public class C01Basic {
 		System.out.println(ans);
 		
 		
-
+		sc.close();
 	}
 
 }
