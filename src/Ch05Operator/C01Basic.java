@@ -1,5 +1,7 @@
 package Ch05Operator;
 
+import java.util.Scanner;
+
 public class C01Basic {
 
 	public static void main(String[] args) {
@@ -69,10 +71,17 @@ public class C01Basic {
 //		System.out.printf("%d %d %d %d", a, b, c, d);
 		
 		//삼향연산자
-		int score = 86;
-		char grade = (score > 90) ? 'a' : 'b';
-		System.out.println(score);
+		Scanner sc = new Scanner(System.in);
+		System.out.print("점수입력 : ");
+		int score = sc.nextInt();
+		char grade = (score > 90) ? 'A' : 'B';
+		System.out.println(grade);
 		
+		int one = sc.nextInt();
+		int two = sc.nextInt();
+		
+		int ans = one > two ? one : two;
+		System.out.println(ans);
 		
 		
 
