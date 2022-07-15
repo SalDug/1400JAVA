@@ -23,20 +23,40 @@ public class C01While {
 //			i++;
 //		}
 //		System.out.println(sum);
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("N : ");
+//		int N = sc.nextInt();
+//		System.out.println(N*(N+1)/2);
+//		
+//		int n, m;
+//		System.out.print("n : ");
+//		n = sc.nextInt();
+//		System.out.print("m : ");
+//		m = sc.nextInt();
+//		System.out.println(((m*(m+1))/2)-((n*(n-1))/2));
+//		
+//		sc.close();
+		
+//		Scanner sc = new Scanner(System.in);
+//		int n = sc.nextInt();
+//		int i = 9;
+//		while(i > 0) {
+//			System.out.printf("%d x %d = %d\n", n, i, n*i);
+//			i--;
+//		}
+//		sc.close();
 		Scanner sc = new Scanner(System.in);
-		System.out.print("N : ");
-		int N = sc.nextInt();
-		System.out.println(N*(N+1)/2);
-		
-		int n, m;
-		System.out.print("n : ");
-		n = sc.nextInt();
-		System.out.print("m : ");
-		m = sc.nextInt();
-		System.out.println(((m*(m+1))/2)-((n*(n-1))/2));
-		
+		int n = sc.nextInt();
+		int i = 1;
+		int sum =0 ;
+		while(i <= n) {
+			if(i % 3 == 0) {
+				sum += i;
+			}
+			i++;
+		}
+		System.out.println(sum);
 		sc.close();
-		
 	}
 
 }
