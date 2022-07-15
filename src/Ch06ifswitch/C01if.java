@@ -93,6 +93,17 @@ public class C01if {
 		else {
 			System.out.println("불합격");
 		}	
+//		int a, b, c;
+//		a = sc.nextInt();
+//		b = sc.nextInt();
+//		c = sc.nextInt();
+//		
+		
+		
+		
+		sc.close();
+		
+		
 	}
 
 }
