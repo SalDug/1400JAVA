@@ -9,11 +9,13 @@ public class C02Car {
 		speed += 10;
 	}
 	void Break() {
-		System.out.println(owner + "님의 차가 감속합니다.");
+		
 		if(speed>=10) {
+			System.out.println(owner + "님의 차가 감속합니다.");
 			speed -= 10;
 		}
 		else if (speed > 0) {
+			System.out.println(owner + "님의 차가 감속합니다.");
 			speed = 0;
 		}
 		else {

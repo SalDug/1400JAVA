@@ -7,7 +7,10 @@ public class C02Main {
 		MyCar.owner = "홍길동";
 		MyCar.speed = 0;
 		MyCar.fuel = 100;
-		System.out.printf("%s %d %d\n", MyCar.owner, MyCar.speed, MyCar.fuel);
+		MyCar.Break();
+		MyCar.Accel();
+		MyCar.Accel();
+		MyCar.showInfo();
 
 	}
 
