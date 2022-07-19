@@ -1,6 +1,6 @@
 package Ch08For;
 
-import java.util.Scanner;
+
 
 public class C01For {
 
@@ -38,8 +38,5 @@ public class C01For {
 				System.out.println("*******");
 			}
 		}
-		
-		
 	}
-
 }
