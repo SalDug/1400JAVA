@@ -22,7 +22,7 @@ class Calculator{
 
 
 
-public class Ch07MethodTest {
+public class C07MethodTest {
 
 	public static void main(String[] args) {
 		Calculator cal = new Calculator();
