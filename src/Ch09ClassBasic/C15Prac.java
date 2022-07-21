@@ -16,7 +16,8 @@ class Rectangle{
 	}
 	void show() {
 		
-		System.out.printf("(%d, %d)좌표에서 크기가 %dx%d인 사각형\n", x,y, width, height);
+		System.out.printf("(%d, %d)좌표에서 크기가 %dx%d인 사각형\n"
+				+ "", x,y, width, height);
 	}
 	boolean contains(Rectangle r) {
 		if(r.x > this.x) {
