@@ -13,8 +13,7 @@ public class C05Prac {
 		System.out.println(str.contains(temp));
 		String same = sc.nextLine();
 		System.out.println(str.equals(same));
-		int tmp = str.indexOf("b");
-		System.out.println(str.substring(tmp, str.length()));
+		System.out.println(str.substring(3, str.length()));
 		
 		
 		sc.close();
