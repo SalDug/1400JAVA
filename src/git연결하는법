@@ -1,0 +1,51 @@
+1 git 만들기
+프로젝트 우클릭 -> team -> share project
+상단 체크
+중단 프로젝트 클릭
+왼쪽 하단 create repository 클릭 후
+finish
+
+2 Git Perspective 추가
+window -> pespective -> open perspective
+-> other
+-> Git 선택 후 open
+
+3 github repo 추가하기
+
+github.com -> 오른쪽 상단 메뉴 
+-> Your repository 선택
+-> new -> repository 이름 지정 
+-> create repository 클릭 
+-> url 경로 복사하기
+
+4 인증토큰 발급
+우측상단 사용자메뉴 -> setting 
+->developer setting -> 
+Personal access token -> 
+generate token -> 
+note에 1400JAVA 입력 
+기간 설정 , workflow,write:packages 제외한 나머지 체크 -> Generate token 클릭
+
+
+4 이클립스 git - github 연동
+-> 이클립스 git perspective 선택
+-> remotes 우클릭 -> create remote 
+-> origin -> URI 클릭 -> URL붙여넣기 ->확인 
+-> git staging 클릭 -> ++클릭 -> 
+commit 메시지 입력후 commit and push
+
+
+
+5 github -> 이클립스 프로젝트 가져오기
+file -> import -> git -> 
+projects from git - > next -> 
+Clone URI - > next -> next -> 
+browse -> c:\java1400\fromgithub폴더로 경로선택 -> Next->next->finish
+
+
+
+
+
+
+
+
