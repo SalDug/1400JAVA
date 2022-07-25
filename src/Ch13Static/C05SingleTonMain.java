@@ -48,7 +48,6 @@ class Refrigerator
 				if(list[i].amount > amount) {
 					//수량이 더 많음
 					list[i].amount -= amount;
-					
 					return new Product(list[i].PName, amount);
 				}
 				else if(list[i].amount == amount) {
