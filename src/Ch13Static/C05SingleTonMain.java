@@ -28,7 +28,7 @@ class Refrigerator
 	}
 	private Refrigerator() {}
 
-	Product [] list = new Product[100];
+	Product [] list = new Product[100];  //->컬렉션으로 처리시 메모리 허용범위내에서 확장가능
 	int ProductNum = 0;
 	void SetProduct(Product product) {
 		if(ProductNum <= 99) {
@@ -51,14 +51,14 @@ class Refrigerator
 					return new Product(list[i].PName, amount);
 				}
 				else if(list[i].amount == amount) {
-					//수량일치
-					Product toreturn = new Product(search, amount);
-					for(int j = i;j<=ProductNum;j++) {
-						list[j] = list[j+1]; 
+					Product prod = list[i];
+			
+					for(int j = i+1;j<ProductNum;j++) {
+						list[j-1] = list[j]; 
 					}
+					list[ProductNum-1] = null;
 					ProductNum--;
-					i--;
-					return toreturn;
+					return prod;
 				}
 				else if(list[i].amount < amount) {
 					return null;
@@ -78,14 +78,17 @@ public class C05SingleTonMain {
 		
 		//상품정보객체 생성 
 		Product prod = new Product("콜라",5);
-		
+		Product prod2 = new Product("사이다",5);
 		//냉장고에 상품저장
 		refrigerator.SetProduct(prod);
-
+		refrigerator.SetProduct(prod2);
 		//냉장고에 상품반환
-		Product prod1 =refrigerator.getProduct("콜라",3); 
+		Product prod1 =refrigerator.getProduct("콜라",5); 
 				
 		System.out.println("get Item : " + prod1.toString());
+		for(int i = 0;i<refrigerator.ProductNum;i++) {
+			System.out.println(refrigerator.list[i].toString());
+		}
 				
 	}
 
