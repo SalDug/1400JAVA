@@ -78,7 +78,6 @@ class Tablet extends Computer{
 	}
 	
 }
-
 public class C03UpdownCastingMain {
 	public static void ShowInfo(Computer ref) {
 		if(ref instanceof Notebook) {

@@ -24,7 +24,6 @@ class Regular extends Employee{
 	}
 	
 }
-
 public class C02UpdowncastingMain {
 	
 	public static void ShowInfo(Person person) //상속관계의 상위 클래스, 하위 객체를 연결할 수 있는 매개변수
