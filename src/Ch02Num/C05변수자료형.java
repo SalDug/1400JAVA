@@ -1,4 +1,4 @@
-package Ch02Su;
+package Ch02Num;
 
 public class C05변수자료형 {
 

@@ -1,4 +1,4 @@
-package Ch02Su;
+package Ch02Num;
 
 public class C04실수 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Ch02Su;
+package Ch02Num;
 
 
 public class C07리터럴상수 {

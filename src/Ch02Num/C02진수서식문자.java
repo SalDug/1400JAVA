@@ -1,4 +1,4 @@
-package Ch02Su;
+package Ch02Num;
 
 public class C02진수서식문자 {
 

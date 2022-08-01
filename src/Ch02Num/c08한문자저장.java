@@ -1,4 +1,4 @@
-package Ch02Su;
+package Ch02Num;
 
 public class c08한문자저장 {
 		public static void main(String[] args) {

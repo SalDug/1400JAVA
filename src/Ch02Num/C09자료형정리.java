@@ -1,4 +1,4 @@
-package Ch02Su;
+package Ch02Num;
 
 public class C09자료형정리 {
 
